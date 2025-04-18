@@ -115,7 +115,7 @@ A modern, feature-rich web application designed to streamline food ordering and 
   <details open>
     <summary><strong>Application Showcase</strong></summary>
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 20px;">
-      <a href="/homePage.png" target="_blank">
+      <a href="/public/homePage.png" target="_blank">
         <img src="/homePage.png" width="100%" alt="Home Page" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         <p align="center"><strong>Home Page</strong> - Modern interface with featured items</p>
       </a>
