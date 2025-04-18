@@ -119,24 +119,24 @@ A modern, feature-rich web application designed to streamline food ordering and 
         <img src="/public/homePage.png" width="100%" alt="Home Page" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         <p align="center"><strong>Home Page</strong> - Modern interface with featured items</p>
       </a>
-      <a href="/Menu-Page.png" target="_blank">
-        <img src="/Menu-Page.png" width="100%" alt="Menu Page" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+      <a href="/public/Menu-Page.png" target="_blank">
+        <img src="/public/Menu-Page.png" width="100%" alt="Menu Page" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         <p align="center"><strong>Menu Page</strong> - Browse categories and items</p>
       </a>
-      <a href="/MenuPageSecondHalf.png" target="_blank">
-        <img src="/MenuPageSecondHalf.png" width="100%" alt="Menu Categories" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+      <a href="/public/MenuPageSecondHalf.png" target="_blank">
+        <img src="/public/MenuPageSecondHalf.png" width="100%" alt="Menu Categories" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         <p align="center"><strong>Menu Categories</strong> - Multiple food options</p>
       </a>
-      <a href="/fastFoodSidebar.png" target="_blank">
-        <img src="/fastFoodSidebar.png" width="100%" alt="Navigation Sidebar" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+      <a href="/public/fastFoodSidebar.png" target="_blank">
+        <img src="/public/fastFoodSidebar.png" width="100%" alt="Navigation Sidebar" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         <p align="center"><strong>Navigation Sidebar</strong> - Intuitive app navigation</p>
       </a>
-      <a href="/Bill.png" target="_blank">
-        <img src="/Bill.png" width="100%" alt="Bill Generation" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+      <a href="/public/Bill.png" target="_blank">
+        <img src="/public/Bill.png" width="100%" alt="Bill Generation" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         <p align="center"><strong>Bill Generation</strong> - Detailed order summary</p>
       </a>
-      <a href="/DownloadBill.png" target="_blank">
-        <img src="/DownloadBill.png" width="100%" alt="Bill Download" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+      <a href="/public/DownloadBill.png" target="_blank">
+        <img src="/public/DownloadBill.png" width="100%" alt="Bill Download" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         <p align="center"><strong>Bill Download</strong> - Save and share receipts</p>
       </a>
     </div>
