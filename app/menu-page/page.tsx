@@ -33,7 +33,7 @@ const MOCK_MENU_ITEMS = [
     name: "Classic Cheeseburger",
     description:
       "Juicy beef patty with melted cheddar cheese, lettuce, tomato, and special sauce",
-    price: 9.99,
+    price: 199,
     image:
       "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     categoryId: "1",
@@ -45,7 +45,7 @@ const MOCK_MENU_ITEMS = [
     name: "Margherita Pizza",
     description:
       "Traditional pizza with tomato sauce, fresh mozzarella, basil, and olive oil",
-    price: 12.99,
+    price: 499,
     image:
       "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     categoryId: "2",
@@ -57,7 +57,7 @@ const MOCK_MENU_ITEMS = [
     name: "Caesar Salad",
     description:
       "Romaine lettuce with Caesar dressing, parmesan cheese, and croutons",
-    price: 8.49,
+    price: 129,
     image:
       "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     categoryId: "3",
@@ -69,7 +69,7 @@ const MOCK_MENU_ITEMS = [
     name: "Veggie Wrap",
     description:
       "Whole wheat wrap filled with hummus, mixed greens, avocado, and roasted vegetables",
-    price: 7.99,
+    price: 159,
     image:
       "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     categoryId: "4",
@@ -81,7 +81,7 @@ const MOCK_MENU_ITEMS = [
     name: "Chicken Alfredo Pasta",
     description:
       "Fettuccine pasta with creamy Alfredo sauce and grilled chicken",
-    price: 14.99,
+    price: 299,
     image:
       "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     categoryId: "5",
@@ -93,7 +93,7 @@ const MOCK_MENU_ITEMS = [
     name: "Chocolate Brownie Sundae",
     description:
       "Warm brownie topped with vanilla ice cream, chocolate sauce, and whipped cream",
-    price: 6.99,
+    price: 99,
     image:
       "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     categoryId: "6",
@@ -105,7 +105,7 @@ const MOCK_MENU_ITEMS = [
     name: "Spicy Chicken Wings",
     description:
       "Crispy fried chicken wings tossed in spicy buffalo sauce, served with blue cheese dip",
-    price: 11.49,
+    price: 150,
     image:
       "https://images.unsplash.com/photo-1608039755401-742074f0548d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     categoryId: "7",
@@ -116,7 +116,7 @@ const MOCK_MENU_ITEMS = [
     id: "8",
     name: "Fresh Fruit Smoothie",
     description: "Blend of seasonal fruits with yogurt and honey",
-    price: 5.99,
+    price: 120,
     image:
       "https://images.unsplash.com/photo-1647275486864-1b29efb0d570?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RnJlc2glMjBGcnVpdCUyMFNtb290aGllfGVufDB8fDB8fHww",
     categoryId: "8",
@@ -392,7 +392,7 @@ export default function MenuPage() {
             <h2 className="text-2xl font-semibold border-b pb-2">{category}</h2>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               {items.map((item) => (
-                <Card key={item.id} className="flex overflow-hidden">
+                <Card key={item.id} className="flex overflow-hidden w-[400px]">
                   <div className="relative w-1/3 min-h-full">
                     <Image
                       src={item.image}

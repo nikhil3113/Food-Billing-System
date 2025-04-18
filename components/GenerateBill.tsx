@@ -45,7 +45,6 @@ export function GenerateBill({
     name: "",
     email: "",
     phone: "",
-    address: "",
   });
   const [isGenerating, setIsGenerating] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
@@ -215,19 +214,7 @@ export function GenerateBill({
                 className="col-span-3"
               />
             </div>
-            <div className="grid grid-cols-4 items-center gap-4">
-              <Label htmlFor="address" className="text-right">
-                Address
-              </Label>
-              <Input
-                id="address"
-                value={customerInfo.address}
-                onChange={(e) =>
-                  setCustomerInfo({ ...customerInfo, address: e.target.value })
-                }
-                className="col-span-3"
-              />
-            </div>
+
           </div>
 
           <DialogFooter className="flex flex-col sm:flex-row gap-2">
@@ -278,7 +265,7 @@ export function GenerateBill({
               <p className="font-bold">Bill To:</p>
               <p>{customerInfo.name || "Guest Customer"}</p>
               {customerInfo.phone && <p>Phone: {customerInfo.phone}</p>}
-              {customerInfo.address && <p>Address: {customerInfo.address}</p>}
+              {customerInfo && <p>Address: FF Foods</p>}
             </div>
             <div className="text-right">
               <p className="font-bold">Order #: {orderId}</p>

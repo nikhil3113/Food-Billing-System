@@ -12,7 +12,6 @@ A modern, feature-rich web application designed to streamline food ordering and 
 - **Shopping Cart** - Add, remove, and modify items with real-time calculations
 - **Bill Generation** - Professional, downloadable bills with complete order details
 - **User Authentication** - Secure login with social provider options
-- **Order History** - Track past orders and quickly reorder favorites
 
 ### Business Features
 
@@ -76,8 +75,10 @@ A modern, feature-rich web application designed to streamline food ordering and 
    ```
 
 5. **Adding Menu Items**
+
    - Navigate to the app/menu-page/page.tsx file.
    - Add your menu items in the `menuItems` array.
+
    ```typescript
    const menuItems = [
      {
@@ -107,3 +108,43 @@ A modern, feature-rich web application designed to streamline food ordering and 
      // Add more items as needed
    ];
    ```
+
+## 📸 Screenshots
+
+<div align="center">
+  <details open>
+    <summary><strong>Application Showcase</strong></summary>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 20px;">
+      <a href="/homePage.png" target="_blank">
+        <img src="/homePage.png" width="100%" alt="Home Page" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        <p align="center"><strong>Home Page</strong> - Modern interface with featured items</p>
+      </a>
+      <a href="/Menu-Page.png" target="_blank">
+        <img src="/Menu-Page.png" width="100%" alt="Menu Page" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        <p align="center"><strong>Menu Page</strong> - Browse categories and items</p>
+      </a>
+      <a href="/MenuPageSecondHalf.png" target="_blank">
+        <img src="/MenuPageSecondHalf.png" width="100%" alt="Menu Categories" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        <p align="center"><strong>Menu Categories</strong> - Multiple food options</p>
+      </a>
+      <a href="/fastFoodSidebar.png" target="_blank">
+        <img src="/fastFoodSidebar.png" width="100%" alt="Navigation Sidebar" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        <p align="center"><strong>Navigation Sidebar</strong> - Intuitive app navigation</p>
+      </a>
+      <a href="/Bill.png" target="_blank">
+        <img src="/Bill.png" width="100%" alt="Bill Generation" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        <p align="center"><strong>Bill Generation</strong> - Detailed order summary</p>
+      </a>
+      <a href="/DownloadBill.png" target="_blank">
+        <img src="/DownloadBill.png" width="100%" alt="Bill Download" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        <p align="center"><strong>Bill Download</strong> - Save and share receipts</p>
+      </a>
+    </div>
+  </details>
+</div>
+
+<div align="center">
+  <p><em>Click on any screenshot to view full size</em></p>
+</div>
+
+      >
